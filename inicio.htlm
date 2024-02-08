@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Inicio - Clínica de Ojos</title>
+</head>
+<body>
+            <nav>
+                <img class="logo_nav" src="logo.png" alt="Logo de la clínica">
+                <div class="barnav">
+                    <div>
+                        <a href="inicio.html" class="nav-link">Inicio</a>
+                    </div>
+                    <div>
+                        <a href="sobre_nosotros.html" class="nav-link">Nosotros</a>
+                    </div>
+                    <div>
+                        <a href="cirugia.html" class="nav-link">Cirugía</a>
+                    </div>
+                    <div>
+                        <a href="turno.html" class="nav-link">Turno</a>
+                    </div>
+                    <div>
+                        <a href="contacto.html" class="nav-link">Contacto</a>
+                    </div>
+                
+                </div>
+            </nav>
+        
+    
+
+    <header>
+        <img class="logo" src="logo.png" alt="Logo de la clínica">
+        <section class="clinica">
+            <h1>Clinica de Ojos</h1>
+        </section>
+    </header>
+
+    <section class="promo">
+        <p>Una empresa jujeña al cuidado de tus ojos</p>
+    </section>
+    <!-- Este es un comentario en HTML 
+    <nav>
+        <ul>
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="sobre_nosotros.html">Sobre Nosotros</a></li>
+            <li><a href="cirugia.html">Cirugía</a></li>
+            <li><a href="turno.html">Turno</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+
+        </ul>
+    </nav>
+        -->
+    <h1>Especialidades</h1>
+        <div class="especialidades">
+
+            <div class="card">
+                <div class="text">
+                    <p class="card__title">Glaucoma</p>
+                    <p class="card__description">El glaucoma es una enfermedad ocular crónica que daña el nervio óptico, causando pérdida gradual de la visión periférica. A menudo está asociado con aumento de la presión intraocular. Puede ser asintomático al principio y, si no se trata, puede llevar a la ceguera. La detección temprana y el control de la presión ocular son cruciales para prevenir la progresión de la enfermedad.</p>
+                </div>
+                <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+                <div class="card__content">
+                    <img class="esp" src="glaucoma.jpg" alt="Logo de la clínica">
+                </div>
+            </div>
+            <div class="card">
+                <div class="text">
+                    <p class="card__title">Catarata</p>
+                    <p class="card__description">La catarata es una condición ocular en la cual el cristalino, la lente natural del ojo, se vuelve opaco, afectando la visión. Esto puede resultar en visión borrosa, deslumbramiento y dificultad para ver con claridad. La principal causa de las cataratas es el envejecimiento, pero también pueden deberse a lesiones, enfermedades o factores genéticos. El tratamiento común implica la cirugía para reemplazar el cristalino nublado con una lente artificial, lo que generalmente mejora significativamente la visión</p>
+                </div>
+                <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+                <div class="card__content">
+                    <img class="esp" src="catarata.jpg" alt="Logo de la clínica">
+                </div>
+            </div>
+            <div class="card">
+                <div class="text">
+                    <p class="card__title">Estrabismo</p>
+                    <p class="card__description">El estrabismo es una condición ocular en la que los ojos no están alineados correctamente y apuntan en direcciones diferentes. Puede ser causado por problemas en los músculos o nervios que controlan el movimiento ocular. El estrabismo puede resultar en visión doble y afectar la percepción tridimensional. Se puede tratar con terapia visual, lentes, parches o cirugía para alinear los ojos y mejorar la función visual. El tratamiento temprano es importante para prevenir problemas de desarrollo visual y mejorar la calidad de vida.</p>
+                </div>
+                <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+                <div class="card__content">
+                    <img class="esp" src="estrabismo.jpg" alt="Logo de la clínica">
+                </div>
+            </div>
+            <div class="card">
+                <div class="text">
+                    <p class="card__title">Miopia</p>
+                    <p class="card__description">
+                        La miopía, también conocida como vista corta, es un defecto visual común en el que los objetos cercanos se ven claramente, pero los objetos distantes aparecen borrosos. Esto ocurre porque la luz enfocada por el ojo se centra antes de llegar a la retina. La miopía suele ser causada por una longitud axial del ojo más larga de lo normal o una curvatura excesiva de la córnea. Puede corregirse con gafas, lentes de contacto o cirugía refractiva, como la cirugía láser LASIK. La miopía suele desarrollarse durante la infancia y puede estabilizarse en la edad adulta.</p>
+                </div>
+                <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+                <div class="card__content">
+                    <img class="esp" src="miopia.jpg" alt="Logo de la clínica">
+                </div>
+            </div>
+            <div class="card">
+                <div class="text">
+                    <p class="card__title">Astigmatismo</p>
+                    <p class="card__description">El astigmatismo es un error refractivo del ojo que afecta la manera en que la luz se enfoca en la retina. A diferencia de la córnea o el cristalino que tienen una curvatura uniforme, en el astigmatismo, estas estructuras tienen curvaturas irregulares en diferentes direcciones. Esto provoca que la luz se enfoque de manera desigual en la retina, resultando en una visión borrosa o distorsionada tanto de objetos cercanos como lejanos. El astigmatismo puede ser corregido mediante el uso de lentes correctivos, como anteojos o lentes de contacto, que compensan las irregularidades en la curvatura de la córnea o el cristalino. La cirugía refractiva también puede ser una opción para corregir el astigmatismo de manera permanente</p>
+                </div>
+                <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+                <div class="card__content">
+                    <img class="esp" src="astigmatismo.jpg" alt="Logo de la clínica">
+                </div>
+            </div>
+            <div class="card">
+                <div class="text">
+                    <p class="card__title">Queratocono</p>
+                    <p class="card__description">
+                        El queratocono es una enfermedad ocular en la que la córnea, la parte transparente y curva del ojo, se adelgaza y se abulta en forma de cono. Esta deformación afecta la calidad de la visión, causando astigmatismo y distorsión visual. Se desconoce la causa exacta del queratocono, pero factores genéticos y ambientales pueden contribuir. Los síntomas incluyen visión borrosa, sensibilidad a la luz y cambios en la forma de la córnea. El tratamiento puede incluir lentes de contacto, gafas y, en casos más avanzados, procedimientos como el crosslinking corneal o trasplante de córnea. La detección temprana es crucial para manejar la progresión de la enfermedad</p>
+                </div>
+                <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+                <div class="card__content">
+                    <img class="esp" src="queratocono.jpg" alt="Logo de la clínica">
+                </div>
+            </div>
+            <div class="card">
+                <div class="text">
+                    <p class="card__title">Retinopatia</p>
+                    <p class="card__description">La retinopatía es una enfermedad ocular que afecta la retina, la capa sensible a la luz en la parte posterior del ojo. Puede ser causada por diabetes, hipertensión u otras condiciones médicas. En la retinopatía, los vasos sanguíneos de la retina pueden dañarse, filtrar sangre o fluidos, afectando la visión. En casos avanzados, puede conducir a la pérdida de visión. El tratamiento puede incluir controlar las condiciones subyacentes, medicamentos o intervenciones como la cirugía láser. La detección temprana y el manejo adecuado son esenciales para prevenir complicaciones.</p>
+                </div>
+                <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+                <div class="card__content">
+                    <img class="esp" src="retinopatia.jpg" alt="Logo de la clínica">
+                </div>
+            </div>
+            <div class="card">
+                <div class="text">
+                    <p class="card__title">Desprendimiento de retina</p>
+                    <p class="card__description">
+                        El desprendimiento de retina es una condición ocular grave en la que la capa sensible a la luz en la parte posterior del ojo, llamada retina, se separa de su posición normal. Esto puede ocurrir debido a la acumulación de líquido entre la retina y las capas subyacentes. Los síntomas pueden incluir destellos de luz, moscas volantes y una cortina oscura en el campo visual. El desprendimiento de retina requiere atención médica inmediata, ya que puede provocar pérdida de visión permanente si no se trata. El tratamiento generalmente implica procedimientos quirúrgicos para volver a colocar la retina en su posición correcta. La pronta detección y intervención son cruciales para preservar la visión.</p>
+                </div>
+                <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+                <div class="card__content">
+                    <img class="esp" src="retina.jpg" alt="Logo de la clínica">
+                </div>
+            </div>
+        
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+   <script src="bootstrap/js/bootstrap.min.js"></script>
+   <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
