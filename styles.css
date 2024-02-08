@@ -1,0 +1,288 @@
+nav {
+    display: grid;
+    grid-template-columns: 2fr auto;
+    align-items: center;
+    background: rgb(180, 198, 214);
+    font-family: sans-serif;
+    /*position: fixed;*/
+    top: 0;
+    width: 100%;
+    padding: 15px 10px; /* Añadido para dar espacio al contenido */
+    z-index: 1000; /* Asegura que la barra de navegación esté en la parte superior */
+    height: 40px
+}
+
+nav .logo_nav {
+    font-size: 24px;
+    font-weight: bold; /* Corregido el valor incorrecto */
+    width: 45px;
+    height: 45px;
+}
+
+nav .barnav {
+    display: grid;
+    grid-template-columns: repeat(5, auto); /* Cambiado a 5 columnas */
+    gap: 5px; /* Añadido espacio entre los botones */
+}
+
+nav .barnav div {
+    padding: 10px;
+    transition: background 0.3s; /* Añadida transición para suavizar el cambio de color */
+}
+
+nav .barnav div:hover {
+    cursor: pointer;
+    background: #73939c;
+}
+/* cambiar el estilo de los botones de enlace */
+/* Estilo para los enlaces */
+nav .nav-link {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Estilo para los enlaces cuando están siendo hoveados */
+nav .nav-link:hover {
+    color: #f6f7f4;
+}
+
+/* Estilo para el enlace activo */
+nav .nav-link.active {
+    color: #dc3939;
+    font-weight: bold;
+}
+.active {
+    background-color: #4CAF50;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img.cirugia{
+    width: 200px;
+    height: 300px;
+}
+img.logo{
+    position: static;
+    width: 200px;
+    height: 200px;
+    margin-right: 500px;
+    margin-top: 5px;
+}
+header {
+    position: static;
+    text-align:center;
+    padding: 100px;
+
+}
+header {
+
+    background-image: url("mirada.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10;
+    height: 30vh;
+    
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+.clinica{
+    margin-right: 500px;
+    margin-top: -20px;
+    font-size: 25px
+}
+/* viejo navegador*/
+
+/*nav {
+    background-color: #2ecc71;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}*/
+
+.promo {
+    text-align: center;
+    background-color: #d4f7dc;
+    padding: 5px;
+}
+
+#inicio {
+    text-align: center;
+    padding: 20px;
+}
+
+.contacto-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contacto-bar img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 50px;
+}
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.especialidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario para evitar superposiciones con la barra de navegación */
+}
+
+
+
+.doctores-bar {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.doctores-bar img {
+    max-width: 100px;
+    height: auto;
+    margin: 10px;
+    border-radius: 50%;
+    transition: transform 0.5s;
+}
+
+.doctores-bar img:hover {
+    transform: scale(1.1);
+}
+
+/*carta de cirugia antes*/
+.cirugia-card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    transition: transform 0.5s;
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario para evitar superposiciones con la barra de navegación */
+}
+.cirugia-card:hover {
+    transform: scale(1.05);
+}
+/*carta de cirugia mejorado*/
+.card {
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
+
+  .card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  .card__title {
+    margin: 10px 0 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .card:hover svg {
+    scale: 0;
+  }
+  
+  .card__description {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+  }
+  .text {
+    position: absolute;
+    top: 20px; /* Ajusta el espacio desde la parte superior según sea necesario */
+    left: 20px; /* Ajusta el espacio desde el lado izquierdo según sea necesario */
+}
+  img.esp{
+    width: 400px;
+    height: 200px;
+
+  }
+  /*especialidades*/
+.especialidad-card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    transition: transform 0.5s;
+}
+.especialidad-card:hover {
+    transform: scale(1.05);
+}
+
+#nosotros {
+    text-align: center;
+    padding: 20px;
+}
+
+.equipos img {
+    max-width: 200px;
+    height: auto;
+    margin: 10px;
+}
